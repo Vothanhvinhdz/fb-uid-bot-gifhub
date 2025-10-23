@@ -4,8 +4,8 @@ from aiohttp import ClientSession
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-FB_TOKEN = os.getenv("FB_TOKEN")
+TELEGRAM_TOKEN = os.getenv("7618142601:AAH4_zzpHyy7wjioC9QbBCtXcuNO-roKl8s"")
+FB_TOKEN = os.getenv("EAAGNO4a7r2wBPyLgahrnYRBnA4qQKZAlY5aofyumyBqHRhPZCwOzCSevSOiaaGpWCxZABbm9OMeYMghSZA4q3KPfnmcw396tQPGI9cTZAqF9feQn33HJtjj4QqGa3ZCiD7EXZCGZCgxbwPpWFvLCywzZCY74Gd9Aa8xOoWkphBvZAUFrUsap7GrcnOoOjfsWmYSHCJtwZDZD")
 CONCURRENCY = int(os.getenv("CONCURRENCY", "6"))
 REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "10"))
 CACHE_TTL = int(os.getenv("CACHE_TTL", "300"))
